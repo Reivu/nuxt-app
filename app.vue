@@ -1,7 +1,8 @@
 <template>
-  <div>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+  <div class="min-h-screen w-screen bg-slate-400">
+    <NuxtLayout>
+      <NuxtLoadingIndicator />
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
